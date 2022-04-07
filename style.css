@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-weight: 300;
+    color: #111;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://www.teahub.io/photos/full/8-83222_technology-wallpaper-full-hd.jpg);
+    background-size: cover;
+}
+
+.content{
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 90px;
+    color: white;
+    margin: 0%;
+}
+
+.content p {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 150px;
+    max-width: 1100px;
+}
+
+.btn {
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    background-color: #023e8a;
+    padding: 10px 40px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #0247a0;
+    box-shadow: 0px 0px 20px black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+}
+
+header .logo {
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar {
+    display: inline;
+    position: fixed;
+    right: 40px;
+    
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+    vertical-align: sub;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: all 0.2s ease-in-out;
+    
+}
+
+.navbar li a:hover {
+    color: rgb(197, 197, 197);
+}
+
+
+.chisiamo {
+    margin: 0px 100px;
+    text-align: center;
+    padding: 200px 0px;
+}
+
+.chisiamo p {
+    font-weight: 400;
+    font-size: 20px;
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+.chisiamo h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 100px;
+}
+
+.dovesiamo {
+    text-align: center;
+    margin: 0px;
+    background-color: #f8f8f8;
+    padding: 200px 50px 50px 50px;
+}
+
+.dovesiamo h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 100px;
+    margin-top: 0px;
+}
+
+.sticky {
+    background: #fff;
+}
+
+.sticky .navlink {
+    color: black;
+}
+.sticky .logo {
+    color: black;
+}
+
+.sticky .navlink:hover {
+    color: rgb(94, 94, 94);
+}
+
+.orari {
+    text-align: center;
+    margin: 0px 50px;
+    padding: 100px;
+}
+
+.orari table {
+    border-collapse: collapse;
+    border: 3px solid black;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 30px;
+}
+
+.orari table td {
+    border: 3px solid black;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.orari h2 {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 100px;
+}
+
+.orari table tr:hover {
+    background-color: black;
+    color: white;
+}
+
+.orari table tr {
+    transition: all 0.15s ease-in-out;
+}
