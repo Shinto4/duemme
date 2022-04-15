@@ -83,6 +83,6 @@ display:none;
 
 @media screen and (max-height: 700px) and (max-width: 500px){
     .mobilemenu {
-        padding: 0px 150px;
+        padding: 150px 0px;
     }
 }
