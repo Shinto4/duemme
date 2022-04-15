@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+
+#hamburgericon {
+    
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    margin: 0px;
+    display: none;
+    z-index: 20000;
+    border: none;
+    background: none;
+}
+
+#hamburgericon div {
+    background-color: white;
+    height: 3px;
+    width: 35px;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.open #bar1 {
+    transform: rotate(-45deg), translate(-6px, 6px);
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    background-color: black;
+}
+
+.open #bar2 {
+    opacity: 0;
+}
+
+.open #bar3 {
+    transform: rotate(45deg,) translate(-6px, -8px);
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    background-color: black;
+}
+
+
+.menu {
+    width: 100%;
+    margin: 0px;
+}
+
+.open .mobilemenu {
+    background-color: white;
+    opacity: 1;
+}
+
+.mobilemenu {
+    font-size: 30px;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    padding: 250px 0px;
+    margin: 0px;
+    list-style: none;
+    opacity: 0;
+    height: 100%;
+    transition: all 0.4s ease-in-out;
+    z-index: 1;
+  }
+
+  .mobilemenu li a {
+      text-decoration: none;
+      color: black;
+  }
+.navbar li a:hover {
+    color: rgb(197, 197, 197);
+}
+
+@media screen and (min-width: 200px) and (max-width: 900px) {
+    .navbar{
+display:none;
+}
+#hamburgericon {
+    display: block;
+}
+}

@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/mobilemenu.css">
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
     </head>
+    
     <body>
         <header>
             <a href="" class="logo">Duemme</a>
@@ -10,69 +13,31 @@
                 <li><a class="navlink" href="#home">Home</a></li>
                 <li><a class="navlink" href="#chisiamo">Chi siamo</a></li>
                 <li><a class="navlink" href="#dovesiamo">Dove siamo</a></li>
-                <li><a class="navlink" href="#orari">Orari</a></li>
+                <li><a class="navlink" href="form.html">Contattaci</a></li>
             </ul>
         </header>
+        
         <section class="banner" id="home">
+            <button id="hamburgericon" onclick="toggleMenu()">
+                <div id="bar1"></div>
+                <div id="bar2"></div>
+                <div id="bar3"></div></button>
+            <div id="menu">
+                
+                <ul class="mobilemenu">
+                    <li><a class="navlink" href="index.html">Home</a></li><br>
+                    <li><a class="navlink" href="#chisiamo">Chi siamo</a></li><br>
+                    <li><a class="navlink" href="#dovesiamo">Dove siamo</a></li><br>
+                    <li><a class="navlink" href="form.html">Contattaci</a></li>
+                </ul>
+                </div>
             <div class="content">
                 <h2>Duemme Computer</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis sit amet sem elementum varius.
-                    Cras congue pretium placerat. Aenean accumsan lacus vel libero iaculis malesuada. Etiam volutpat nunc sit amet sagittis condimentum.
-                     Morbi consectetur ante mi, eu blandit purus elementum id.</p>
+                <p>Negozio di computer ad ostia per riparazioni, supporto e vendita</p>
                 <a href="#chisiamo" class="btn">ESPLORA</a>
             </div>
         </section>
 
-        <section id="chisiamo" class="chisiamo">
-            <div>
-                <h2>Chi siamo</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis sit amet sem elementum varius.
-                    Cras congue pretium placerat. Aenean accumsan lacus vel libero iaculis malesuada. Etiam volutpat nunc sit amet sagittis condimentum.
-                     Morbi consectetur ante mi, eu blandit purus elementum id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis sit amet sem elementum varius.
-                     Cras congue pretium placerat. Aenean accumsan lacus vel libero iaculis malesuada. Etiam volutpat nunc sit amet sagittis condimentum.
-                      Morbi consectetur ante mi, eu blandit purus elementum id. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus facilisis sit amet sem elementum varius.
-                      Cras congue pretium placerat. Aenean accumsan lacus vel libero iaculis malesuada. Etiam volutpat nunc sit amet sagittis condimentum.
-                       Morbi consectetur ante mi, eu blandit purus elementum id.</p>
-            </div>
-        </section>
-
-        <section class="dovesiamo" id="dovesiamo">
-            <div>
-                <h2>Dove siamo</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47611.05803876045!2d12.24203551619957!3d41.77031678296022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325efd91bd77b57%3A0x20bff841c59c43eb!2sDue%20Emme%20Computer%20Service%20Srls!5e0!3m2!1sit!2sit!4v1649353730225!5m2!1sit!2sit" width="85%" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-
-        <section id="orari" class="orari">
-            <div>
-                <h2>Orari</h2>
-                <table>
-                <tr><td>Lunedi</td><td>8-13/16-19</td></tr>
-                <tr><td>Martedi</td><td>8-13/16-19</td></tr>
-                <tr><td>Mercoledi</td><td>8-13/16-19</td></tr>
-                <tr><td>Giovedi</td><td>8-13/16-19</td></tr>
-                <tr><td>Venerdi</td><td>8-13/16-19</td></tr>
-                <tr><td>Sabato</td><td>8-13</td></tr>
-                <tr><td>Domenica</td><td>Chiuso</td></tr>
-                </table>
-                
-            </div>
-        </section>
     </body>
-    <script>
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-            behavior: 'smooth'
-        });
-    });
-});
-
-        window.addEventListener('scroll', function(){
-            const header = document.querySelector('header');
-            header.classList.toggle("sticky", window.scrollY > 0);
-        });
-    </script>
+    <script src="js/mobilenavbar.js"></script>
 </html>
