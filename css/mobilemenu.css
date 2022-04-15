@@ -46,11 +46,12 @@
 .open .mobilemenu {
     background-color: white;
     opacity: 1;
+    top:0px;
 }
 
 .mobilemenu {
     font-size: 30px;
-    top: 0px;
+    top: -500px;
     right: 0px;
     text-align: center;
     position: absolute;
