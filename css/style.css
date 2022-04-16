@@ -74,6 +74,10 @@ header .logo {
     transition: all 0.2s ease-in-out;
 }
 
+header .logo:hover {
+    color: #8791fd;
+}
+
 .navbar {
     display: inline;
     position: fixed;
@@ -95,6 +99,10 @@ header .logo {
     margin-right: 15px;
     transition: all 0.2s ease-in-out;
     
+}
+
+.navbar li a:hover {
+    color: rgb(163, 163, 163);
 }
 
 

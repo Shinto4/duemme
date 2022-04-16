@@ -69,9 +69,7 @@
       text-decoration: none;
       color: black;
   }
-.navbar li a:hover {
-    color: rgb(197, 197, 197);
-}
+
 
 @media screen and (min-width: 200px) and (max-width: 900px) {
     .navbar{

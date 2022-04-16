@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    
+    padding: 40px 0px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+header .logo {
+    color: black;
+    font-weight: 700;
+    font-size: 30px;
+    position: relative;
+    left: 40px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    z-index: 20000;
+}
+header .logo:hover {
+    color: #4856ec;
+}
+
+.navbar {
+    display: inline;
+    right: 40px;
+    position: relative;
+    top: 10px;
+    z-index: 20000;
+}
+
+.navbar li {
+    display: inline;
+    list-style: none;
+    float: right;
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 20px;
+    margin-left: 30px;
+    transition: all 0.2s ease-in-out;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.navbar li a:hover {
+    color: rgb(161, 161, 161);
+}   
+
+
+.banner1 {
+    padding: 20px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+
+.banner1 h2 {
+    margin-top: 200px;
+    font-weight: 700;
+    font-size: 70px;
+    
+}
+
+
+.chi {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.siamo {
+    color: rgb(18, 117, 223);
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.container {
+    display: flex;
+    background: url(img/sfondochisiamo.png);
+    background-size: cover;
+    height: 550px;
+}
+
+.massimo {
+    text-align: center;
+    margin: 70px 50px;
+}
+.massimo img {
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+}
+
+.massimo p {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: 50px;
+    text-align: left;
+    margin: 40px;
+}
+
+.negozio {
+    text-align: center;
+    margin: 70px 50px;
+}
+.negozio img {
+    width: 450px;
+    height: 300px;
+    display: inline-block;
+}
+
+.negozio p {
+    max-width: 500px;
+    display: inline-block;
+    vertical-align: 50px;
+    text-align: right;
+    margin: 40px;
+}
+
+@media screen and (max-width: 1151px) {
+    .massimo p {
+        text-align: center;
+    }
+    .negozio p {
+        text-align: center;
+    }
+}

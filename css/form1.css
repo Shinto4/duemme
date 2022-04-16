@@ -19,7 +19,7 @@ header {
 }
 
 header .logo {
-    color: white;
+    color: black;
     font-weight: 700;
     font-size: 30px;
     position: relative;
@@ -27,6 +27,10 @@ header .logo {
     text-decoration: none;
     transition: all 0.2s ease-in-out;
     font-family: 'Poppins', sans-serif;
+    z-index: 20000;
+}
+header .logo:hover {
+    color: #4856ec;
 }
 
 .navbar {
@@ -34,6 +38,7 @@ header .logo {
     right: 40px;
     position: relative;
     top: 10px;
+    z-index: 20000;
 }
 
 .navbar li {
@@ -45,7 +50,7 @@ header .logo {
 
 .navbar li a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: 300;
     font-size: 20px;
     margin-left: 30px;
@@ -55,8 +60,10 @@ header .logo {
 }
 
 .navbar li a:hover {
-    color: rgb(197, 197, 197);
-}
+    color: rgb(161, 161, 161);
+}   
+
+
 
 .thankyou_message{
     text-align: center;
