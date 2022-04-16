@@ -136,11 +136,89 @@ header .logo:hover {
     margin: 40px;
 }
 
-@media screen and (max-width: 1151px) {
+@media screen and (max-width: 1134px) {
     .massimo p {
         text-align: center;
     }
     .negozio p {
         text-align: center;
+    }
+    .negozio {
+        text-align: center;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .negozio img {
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .negozio img {
+        width: 350px;
+        height: 220px;
+    }
+
+    .massimo img {
+        width: 350px;
+        height: 230px;
+    }
+
+    .banner1 h2 {
+        margin-top: 120px;
+        font-size: 50px;
+    }
+
+    .container {
+        height: 400px;
+    }
+    .chi {
+        margin-right: 10px;
+    }
+    .siamo {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .banner1 h2 {
+        font-size: 40px;
+    }
+    .chi {
+        margin-right: 10px;
+    }
+    .siamo {
+        margin-left: 10px;
+    }
+
+    .negozio img {
+        width: 270px;
+        height: 200px;
+    }
+
+    .massimo img {
+        width: 270px;
+        height: 180px;
+    }
+
+    .massimo p {
+        font-size: 13px;
+        margin: 10px;
+    }
+    .negozio p {
+        font-size: 13px;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .negozio img {
+        width: 220px;
+        height: 200px;
+    }
+
+    .massimo img {
+        width: 220px;
+        height: 150px;
     }
 }
