@@ -1,61 +1,130 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
         <link rel="stylesheet" href="css/dovesiamo.css">
         <link rel="stylesheet" href="css/mobilemenu.css">
-        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link rel="stylesheet" href="css/endbar.css">
     </head>
-<body>
-    <header>
-        <a href="" class="logo">Duemme</a>
-        <ul class="navbar">
-            <li><a class="navlink" href="form.html">Contattaci</a></li>
-            <li><a class="navlink" href="#dovesiamo">Dove siamo</a></li>
-            <li><a class="navlink" href="chisiamo.html">Chi siamo</a></li>
-            <li><a class="navlink" href="index.html">Home</a></li>
-        </ul>
-    </header>
-    
-    <section class="banner" id="home">
-        <button id="hamburgericon" onclick="toggleMenu()">
-            <div id="bar1" style="background-color: black;"></div>
-            <div id="bar2" style="background-color: black;"></div>
-            <div id="bar3" style="background-color: black;"></div></button>
-        <div id="menu">
-            
-            <ul class="mobilemenu">
-                <li><a class="navlink" href="index.html">Home</a></li><br>
-                <li><a class="navlink" href="chisiamo.html">Chi siamo</a></li><br>
-                <li><a class="navlink" href="#dovesiamo">Dove siamo</a></li><br>
-                <li><a class="navlink" href="form.html">Contattaci</a></li>
+    <body>
+        <header>
+            <a href="" class="logo" >Duemme</a>
+            <ul class="navbar">
+                <li><a class="navlink" href="form.html" >Contattaci</a></li>
+                <li><a class="navlink" href="#dovesiamo">Dove siamo</a></li>
+                <li><a class="navlink" href="chisiamo.html">Chi siamo</a></li>
+                <li><a class="navlink" href="index.html" >Home</a></li>
             </ul>
-            </div>
-            </section>
-
-            <div class="mappa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5955.376264540524!2d12.284200376858509!3d41.72724806693763!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325efd91bd77b57%3A0x20bff841c59c43eb!2sDue%20Emme%20Computer%20Service%20Srls!5e0!3m2!1sit!2sit!4v1650149750326!5m2!1sit!2sit" width="80%" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="contatti">
-                <div>
-                    <h2>Contatti</h2>
-                    <p>33958478098</p>
-                    <p>m.frisardi66@gmail.com</p>
-                </div>
-
-                <div>
-                    <h2>Social</h2>
-                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"></a>
-                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"></a>
-                    <a href=""><img src="https://upload.wikimedia.org/wikipedia/it/archive/0/09/20160903181541%21Twitter_bird_logo.png"></a>
-                </div>
-                <div>
-                    <h2>Indirizzo</h2>
-                    <p>Via Pietro Rosa, 50</p>
-                    <p>00122 Lido di Ostia RM</p>
-                </div>
-
+            <button id="hamburgericon" onclick="toggleMenu()"  >
+            <div id="bar1" style="background-color: black;"></div>
+                <div id="bar2" style="background-color: black;"></div>
+                <div id="bar3" style="background-color: black;"></div></button>
+        </header>
+        <section class="banner" id="home">
+            
                 
+            <div id="menu">
+                
+                <ul class="mobilemenu">
+                    <li><a class="navlink" href="index.html" style="font-family: 'Poppins', sans-serif; font-size: 30px;">Home</a></li><br>
+                    <li><a class="navlink" href="chisiamo.html" style="font-family: 'Poppins', sans-serif; font-size: 30px;">Chi siamo</a></li><br>
+                    <li><a class="navlink" href="#dovesiamo" style="font-family: 'Poppins', sans-serif; font-size: 30px;">Dove siamo</a></li><br>
+                    <li><a class="navlink" href="form.html" style="font-family: 'Poppins', sans-serif; font-size: 30px;">Contattaci</a></li>
+                </ul>
+                </div>
+                <h1 class="info">Info</h1>
+                <div class="map">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2977.5245710446507!2d12.285403599999997!3d41.730776899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1325efd91ba7b6df%3A0x4f70bf14bef79708!2sVia%20Pietro%20Rosa%2C%2050%2C%2000122%20Lido%20di%20Ostia%20RM!5e0!3m2!1sit!2sit!4v1649541790522!5m2!1sit!2sit" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="mappa"></iframe>
+</div>
+
+
+<div class="tutto">
+    <h2>Come trovarci</h2>
+    <div class="cellu">
+        <img src="https://img.icons8.com/ios/452/phone.png" class="immcell">
+        <p class="cellulare">347 9472 074</p>
+        </div>
+        <div class="cellu">
+            <img src="https://img.icons8.com/ios/500/address--v2.png" class="immcell">
+            <p class="cellulare">Via Pietro Rosa, 50</p>
             </div>
+    <div class="cellu">
+        <img src="https://library.kissclipart.com/20180903/uiw/kissclipart-old-phone-icon-clipart-computer-icons-telephone-cl-cf69c406b27409c4.png" class="immcell">
+        <p class="cellulare">06 5632 0509</p>
+    </div>
+    </div>
+         <h2>Orario</h2>
+        <table border="0px" class="ora">
+            <tr class="grigio">
+            <td align="center">lun</td>
+            <td align="center">9:00-13:00</td>
+            <td align="center">16:00-19:30</td>
+            </tr>
+            <tr class="grigio">
+            <td align="center">mar</td>
+            <td align="center">9:00-13:00</td>
+            <td align="center">16:00-19:30</td>
+            </tr>
+            <tr class="grigio">
+            <td align="center">mer</td>
+            <td align="center">9:00-13:00</td>
+            <td align="center">16:00-19:30</td>
+            </tr>
+            <tr class="grigio">
+            <td align="center">gio</td>
+            <td align="center">9:00-13:00</td>
+            <td align="center">16:00-19:30</td>
+            </tr>
+            <tr class="grigio">
+            <td align="center">ven</td>
+            <td align="center">9:00-13:00</td>
+            <td align="center">16:00-19:30</td>
+            </tr>
+            <tr class="grigio">
+            <td align="center">sab</td>
+            <td align="center">9:00-13:00</td>
+            <td align="center">chiuso</td>
+            </tr>
+            <tr class="grigio">
+            <td align="center">dom</td>
+            <td align="center">chiuso</td>
+            <td align="center">chiuso</td>
+            </tr>
+            </table>
+    </body>
+    <script scr="js/mobilenavbar.js"></script>
+
+    
+</html>
+            <footer>
+                <h1>Duemme Computer</h1>
+                <hr>
+                <div class="contatti">
+                    <div>
+                        <h2>Contatti</h2>
+                        <p>33958478098</p>
+                        <p>m.frisardi66@gmail.com</p>
+                    </div>
+            
+                    <div>
+                        <h2>Social</h2>
+                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Facebook_logo_%28square%29.png/800px-Facebook_logo_%28square%29.png"></a>
+                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/800px-Instagram_logo_2016.svg.png"></a>
+                        <a href=""><img src="https://upload.wikimedia.org/wikipedia/it/archive/0/09/20160903181541%21Twitter_bird_logo.png"></a>
+                    </div>
+                    <div>
+                        <h2>Indirizzo</h2>
+                        <p>Via Pietro Rosa, 50</p>
+                        <p>00122 Lido di Ostia RM</p>
+                    </div>
+            
+                    
+                </div>
+                
+                <div class="crediti">
+                    <p>Sito creato da Ale&Cri | 2022 | Duemme Computer ©</p>
+                </div>
+            </footer>
 </body>
 <script src="js/mobilenavbar.js"></script>
 </html>

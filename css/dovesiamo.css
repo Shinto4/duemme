@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap%27');
 
 body {
     margin: 0;
@@ -12,11 +12,10 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    
+
     padding: 40px 0px;
     transition: all 0.2s ease-in-out;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 header .logo {
@@ -44,7 +43,7 @@ header .logo:hover {
     display: inline;
     list-style: none;
     float: right;
-    
+
 }
 
 .navbar li a {
@@ -55,37 +54,92 @@ header .logo:hover {
     margin-left: 30px;
     transition: all 0.2s ease-in-out;
     font-family: 'Poppins', sans-serif;
-    
+
 }
 
 .navbar li a:hover {
     color: rgb(161, 161, 161);
-}   
-
-.mappa {
-    text-align: center;
-    margin-top: 50px;
-    display: block;
-    z-index: 20000;
 }
 
-.contatti {
-    text-align: center;
-}
-.contatti div {
-    display: inline-block;
-    margin: 50px 50px 0px 50px;
+
+.ora{
+    margin: 40px auto;
+    border-collapse: collapse;
     vertical-align: top;
+    text-align:center;
 }
 
-.contatti div img {
-    height: 44px;
-    width: 44px;
-    margin: 0px 10px;
-    filter: grayscale(1);
-    transition: all 0.3s ease-in-out;
+
+
+.grigio:hover{
+background-color: #d2d2d2;
+margin: 0px;
 }
 
-.contatti div img:hover {
-    filter: grayscale(0);
+
+.ora td{
+    border: 1px solid black;
+    padding: 10px 50px;
+    font-size: 20px;
+}
+
+.mappa{
+    width: 95%;
+    height: 470px;
+}
+
+.immcell{
+    width: 80px;
+    height: 80px
+}
+
+.cellu{
+    text-align: center;
+    display: inline-block;
+    margin: 30px 50px;
+    vertical-align:top;
+}
+
+.cellulare{
+    font-size: 20px;
+}
+
+.map{
+text-align: center;
+}
+
+.tutto{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.tutto h2{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 516px){
+    .immcell{
+        margin: 30px 20px;
+    }
+}
+
+@media screen and (max-width: 600px){
+.ora td{
+    padding: 10px 25px; 
+}
+}
+
+@media screen and (max-width: 450px){
+    .ora td{
+        padding: 10px 10px; 
+    }
+    }
+
+.info {
+    font-size: 50px;
 }

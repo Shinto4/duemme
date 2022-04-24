@@ -146,11 +146,11 @@ header .logo:hover {
     .negozio {
         text-align: center;
         display: flex;
+        align-items: center;
         flex-direction: column-reverse;
     }
-    .negozio img {
-        margin: 0px auto;
-    }
+    
+    
 }
 
 @media screen and (max-width: 550px) {
