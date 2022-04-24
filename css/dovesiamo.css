@@ -79,7 +79,7 @@ margin: 0px;
 
 .ora td{
     border: 1px solid black;
-    padding: 10px 50px;
+    padding: 10px 100px;
     font-size: 20px;
 }
 
@@ -128,7 +128,7 @@ h2{
     }
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 783px){
 .ora td{
     padding: 10px 25px; 
 }
@@ -144,3 +144,4 @@ h2{
     font-size: 50px;
     text-align: center;
 }
+
