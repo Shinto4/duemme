@@ -53,3 +53,9 @@ footer hr {
     height: 2px;
     margin: 30px;
 }
+
+@media screen and (max-width: 588px){
+    .contatti div {
+        margin: 20px 50px;
+    }
+}
